@@ -8,12 +8,11 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "clients": "json-server --watch ./src/db/clients.json ./src/db/supply-points.json --port 3004", 
-    "supplyPoints": "json-server --watch ./src/db/supply-points.json --port 3005" 
+    "clients": "json-server --watch ./src/db/clients.json ./src/db/supply-points.json --port 3004",
+    "supplyPoints": "json-server --watch ./src/db/supply-points.json --port 3005"
   },
   "dependencies": {
-    "json-server": "^0.17.1",
-    "vue": "^3.2.41"
+    "json-server": "^0.17.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.2.0",
